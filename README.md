@@ -2,6 +2,8 @@
 
 This is a simple implementation of the Binary Search algorithm with an interactive and animated interface. The project allows users to visualize how binary search works step by step on a randomly generated list of numbers.
 
+You can try the live version of the project here: [Binary Search Live Demo](https://roland-mehes.github.io/Binary-Search/)
+
 ## Features:
 
 - Visualizes each step of the binary search algorithm.
