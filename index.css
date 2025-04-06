@@ -1,20 +1,64 @@
+:root {
+  margin: 0;
+  pad: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(229, 226, 226);
+  color: #fff;
+}
+
+input,
+button {
+  padding: 0.4rem;
+  border-radius: 20px;
+  border: none;
+}
+
+input {
+  text-align: center;
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+button {
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border: 2px solid transparent;
+  background: #979696;
+}
+
+button:hover {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
 #animation {
-    position: relative;
-    margin-top: 0.5rem;
-    border-top: 1px solid gray;
+  position: relative;
+  margin-top: 0.5rem;
+  border-top: 1px solid gray;
+  padding-top: 1rem;
+  width: 300px;
 }
 
 .list-element {
-    position: absolute;
-    width: 20px;
-    border: 1px solid gray;
-    border-radius: 5px;
-    text-align: center;
-    transition: left 1s ease-in-out;
-    background-color: #00008b63;
+  position: absolute;
+  width: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  text-align: center;
+  transition: left 1s ease-in-out;
+  background-color: #00008b63;
 }
 
 .ctrl-container {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
 }
